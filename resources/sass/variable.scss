@@ -1,22 +1,42 @@
 // Color
 
 $orange:       #FFA26B !default;
-$yellow:       #FFCF5C !default;
+$yellow:       hsl(42, 100%, 68%) !default;
 $green:        #00C48C !default;
 $turquoise:    #19B89C !default;
 $cyan:         #238FCC !default;
 $blue:         #0084F4 !default;
-// $purple:       hsl(271, 100%, 71%) !default
 $red:          #FF647C !default;
 
+$black:        #07080E !default;
+$black-bis:    #202126 !default;
+$black-ter:    #45464A !default;
+
+$grey-darker:  #1A2D45 !default;
+$grey-dark:    #254063 !default;
+$grey:         #516682 !default;
+$grey-light:   #7C8CA1 !default;
+$grey-lighter: #A8B3C1 !default;
+$grey-lightest: #D3D9E0 !default;
+
+$white-ter:    #CCCCCC !default;
+$white-bis:    #F3F3F3 !default;
+$white:        #FFFFFF !default;
+
+
+
+
+// Typography
+
 $family-sans-serif: 'Inter', sans-serif;
-// $primary: $turquoise !default;
-$primary-light: #8CDBCD;
-$primary-lighter: #C5EDE6;
+$body-color: $grey;
 
-// $info: $cyan !default;
-// $success: $green !default;
-// $warning: $yellow !default;
-// $danger: $red !default;
 
-$dimensions: 16 24 32 46 64 80 96 100 128 150 !default
+$dimensions: 16 24 32 46 64 80 96 100 128 150 !default;
+
+// Miscellaneous
+
+$radius-small: 4px !default;
+$radius: 8px !default;
+$radius-large: 16px !default;
+// $radius-rounded: 290486px !default;

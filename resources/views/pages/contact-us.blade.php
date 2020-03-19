@@ -3,19 +3,25 @@
     @section('home')
         <div class="container is-fullhd">
             <div class="contact-us is-flex columns is-marginless">
-                <div class="column is-paddingless">
+                <div class="column is-paddingless body-1">
                     <h1>Contact us</h1> 
                     <h3>Executive Coaching and Training Institute</h3>
-                    <p class="body-1">3 Hakob Hakobyan street, 0074, RA</p>
-                    <p class="body-1">info@esti.am</p>
-                    <p class="body-1">+374 10 123 456</p>
-                    <p class="body-1">+374 10 123 456</p>
+                    <div>
+                        <p>3 Hakob Hakobyan street, 0074, RA</p>
+                        <p>info@esti.am</p>
+                        <p>+374 10 123 456</p>
+                        <p>+374 10 123 456</p>
+                    </div>                    
                     <h3>HR department</h3>
-                    <p class="body-1">info@esti.am</p>
-                    <p class="body-1">+374 10 123 456</p>
+                    <div>
+                        <p>info@esti.am</p>
+                        <p>+374 10 123 456</p>
+                    </div>                    
                     <h3>Department of Economic Affairs</h3>
-                    <p class="body-1">info@esti.am</p>
-                    <p class="body-1">+374 10 123 456</p>
+                    <div>
+                        <p>info@esti.am</p>
+                        <p>+374 10 123 456</p>
+                    </div>
                 </div>
                 <div class="map column is-paddingless">
                     <div class="map-item-1"></div>

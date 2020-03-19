@@ -1,15 +1,9 @@
-$dark-blue: #1A2D45;
-$dark-blue-100: #254063;
-$dark-blue-80: #516682;
-$dark-blue-60: #7C8CA1;
-$dark-blue-40: #A8B3C1;
-$dark-blue-20: #D3D9E0;
+@import './variable.scss';
 
 
 body {
-    // font-family: 'Inter', sans-serif;
     h1, h2, h3 {
-        color: $dark-blue-100;
+        color: $grey-dark;
         font-weight: 600;
     }
     h1 {
@@ -28,7 +22,6 @@ body {
         font-size: 18px;
         line-height: 22px;
         font-weight: 500;
-        color: $dark-blue-80
     }
     .body-1 {
         font-size: 15px;
@@ -57,6 +50,7 @@ body {
         justify-content: flex-end;
         cursor: pointer;
         .account {
+            background: hsl(212, 17%, 85%, 0.2);
             padding-right: 20px;
             margin-left: -10px;
             display: flex;
@@ -144,6 +138,10 @@ body {
     align-items: center;
     .button {
         margin-top: 40px;
+        width: 304px;
+        height: 70px;
+        font-size: 20px;
+        line-height: 22px;
     }
 }
 .training-courses {
@@ -159,7 +157,7 @@ body {
         height: 48px;
         width: 224px;
         border: 2px solid;
-        font-size: 600;
+        font-weight: 600;
         font-size: 17px;
     }
     .card {
@@ -242,4 +240,14 @@ body {
             }
         }
     }
+}
+.button.is-grey.is-outlined {
+    background-color: transparent;
+    border-color: $grey;
+    color: $grey;
+}
+.button.is-grey.is-outlined:hover, .button.is-grey.is-outlined.is-hovered, .button.is-grey.is-outlined:focus, .button.is-grey.is-outlined.is-focused {
+    background-color: $grey;
+    border-color: $grey;
+    color: #fff;
 }

@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="load-more-content">
-                <a class="button is-outlined load-more is-rounded is-link">Load more</a>
+                <a class="button is-outlined load-more is-rounded is-grey">Load more</a>
             </div>
         </div>
 

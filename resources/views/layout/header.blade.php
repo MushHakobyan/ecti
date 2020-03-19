@@ -17,7 +17,7 @@
                 </figure>
             </div>
             <div class="column is-1 is-offset-6 is-paddingless account-button">
-                <div class="account has-background-light">
+                <div class="account">
                     <figure class="image is-46x46">
                     <img src="{{ asset('img/Circle-S.jpg') }}" alt="" class="is-rounded">
                     </figure>
