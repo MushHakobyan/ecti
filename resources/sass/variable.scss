@@ -1,12 +1,26 @@
 // Color
 
-$orange:       #FFA26B !default;
-$yellow:       hsl(42, 100%, 68%) !default;
+$orange:       hsl(22, 100%, 71%,) !default;
+$orange-bis:   hsl(22, 100%, 83%);
+$orange-ter:   hsl(23, 100%, 93%);
+$yellow:       #ffce5c !default;
+$yellow-bis:   #FFE29D;
+$yellow-ter:   #FFF8E7;
 $green:        #00C48C !default;
+$green-bis:    hsl(163, 60%, 68%);
+$green-ter:    #7DDFC3;
 $turquoise:    #19B89C !default;
+$turquoise-bis:#8CDBCD;
+$turquoise-ter:#C5EDE6;
 $cyan:         #238FCC !default;
+$cyan-bis:     #5AABD9;
+$cyan-ter:     #C8E3F2;
 $blue:         #0084F4 !default;
+$blue-bis:     #66B5F8;
+$blue-ter:     #D5E9FA;
 $red:          #FF647C !default;
+$red-bis:      #FDAFBB;
+$red-ter:      #FBE4E8;
 
 $black:        #07080E !default;
 $black-bis:    #202126 !default;

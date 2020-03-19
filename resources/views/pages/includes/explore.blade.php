@@ -37,7 +37,7 @@
                                         <p class="body-1">Mathematics, Statistics, Python</p>
                                     </div>
                                     <div class="body-2">
-                                        <span class="tag is-primary">Data Scince</span>
+                                        <span class="tag">Data Scince</span>
                                         <span>10 July, 2020</span>
                                     </div>
                                 </div>

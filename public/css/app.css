@@ -71,23 +71,35 @@ body .body-3 {
 }
 
 .slider {
-  padding: 23px 72px;
+  position: relative;
+  padding: 20px 70px 15px;
   border-radius: 16px;
   justify-content: space-between;
+  background-color: rgba(124, 222, 195, 0.5);
+  overflow: hidden;
 }
 
-.slider .conten {
+.slider .slider-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slider .slider-content {
   padding: 57px;
   width: 390px;
 }
 
-.slider .conten p {
+.slider .slider-content p {
   line-height: 20px;
   font-size: 15px;
+  margin: 20px 0 50px;
 }
 
-.slider .conten .button {
-  margin-top: 20px;
+.slider .slider-content .button {
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
 }
 
 .explore {
@@ -98,6 +110,14 @@ body .body-3 {
   font-size: 17px;
   line-height: 36px;
   padding: 20px 0 20px 25px;
+}
+
+.explore .aside-menu a {
+  color: #516682;
+}
+
+.explore .aside-menu a:hover {
+  color: #00C48C;
 }
 
 .explore h2 {
@@ -120,9 +140,18 @@ body .body-3 {
   padding: 25px 24px 22px 27px;
 }
 
+.explore .card .card-content p {
+  padding: 10px 0 25px;
+}
+
 .explore .card .body-2 {
   display: flex;
   justify-content: space-between;
+}
+
+.explore .card .body-2 .tag {
+  border-radius: 6px;
+  background-color: rgba(255, 200, 168, 0.5);
 }
 
 .tutors .tutors-section {
@@ -171,6 +200,10 @@ body .body-3 {
   line-height: 22px;
 }
 
+.training-courses a:hover {
+  color: #FF647C;
+}
+
 .training-courses h1 {
   padding: 35px 0 55px 0;
 }
@@ -191,6 +224,10 @@ body .body-3 {
 
 .training-courses .card {
   border-radius: 8px;
+}
+
+.training-courses .card-image {
+  border-radius: 8px 0 0 8px;
 }
 
 .training-courses .line-2 {
@@ -3158,7 +3195,7 @@ fieldset[disabled] .button.is-success.is-inverted.is-outlined {
 
 .button.is-warning:active,
 .button.is-warning.is-active {
-  background-color: #ffc642;
+  background-color: #ffc643;
   border-color: transparent;
   color: rgba(0, 0, 0, 0.7);
 }
@@ -3257,21 +3294,21 @@ fieldset[disabled] .button.is-warning.is-inverted.is-outlined {
 
 .button.is-warning.is-light {
   background-color: #fff9eb;
-  color: #946800;
+  color: #946700;
 }
 
 .button.is-warning.is-light:hover,
 .button.is-warning.is-light.is-hovered {
   background-color: #fff5de;
   border-color: transparent;
-  color: #946800;
+  color: #946700;
 }
 
 .button.is-warning.is-light:active,
 .button.is-warning.is-light.is-active {
   background-color: #fff1d1;
   border-color: transparent;
-  color: #946800;
+  color: #946700;
 }
 
 .button.is-danger {
@@ -4689,7 +4726,7 @@ fieldset[disabled] .button {
 
 .tag:not(body).is-warning.is-light {
   background-color: #fff9eb;
-  color: #946800;
+  color: #946700;
 }
 
 .tag:not(body).is-danger {
@@ -5593,7 +5630,7 @@ a.list-item {
 
 .message.is-warning .message-body {
   border-color: #ffce5c;
-  color: #946800;
+  color: #946700;
 }
 
 .message.is-danger {
@@ -6333,7 +6370,7 @@ a.list-item {
 .navbar.is-warning .navbar-brand .navbar-link:focus,
 .navbar.is-warning .navbar-brand .navbar-link:hover,
 .navbar.is-warning .navbar-brand .navbar-link.is-active {
-  background-color: #ffc642;
+  background-color: #ffc643;
   color: rgba(0, 0, 0, 0.7);
 }
 
@@ -6365,7 +6402,7 @@ a.list-item {
   .navbar.is-warning .navbar-end .navbar-link:focus,
   .navbar.is-warning .navbar-end .navbar-link:hover,
   .navbar.is-warning .navbar-end .navbar-link.is-active {
-    background-color: #ffc642;
+    background-color: #ffc643;
     color: rgba(0, 0, 0, 0.7);
   }
 
@@ -6377,7 +6414,7 @@ a.list-item {
   .navbar.is-warning .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-warning .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-warning .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #ffc642;
+    background-color: #ffc643;
     color: rgba(0, 0, 0, 0.7);
   }
 
