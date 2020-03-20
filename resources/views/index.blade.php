@@ -43,6 +43,12 @@
                 1216: { slidesPerView: 4 }
               }
             })
+
+
+            function slide() {
+              let slide = document.getElementById('slide-menu');
+              slide.style.left = '0';
+            }
         </script>
     </body>
 </html>

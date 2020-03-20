@@ -43,6 +43,16 @@ body .body-3 {
   line-height: 13px;
 }
 
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  background-color: #FFFFFF;
+}
+
 .header p {
   font-size: 18px;
   font-weight: 600;
@@ -322,6 +332,33 @@ body .body-3 {
 
 .contact-us .map .map-item-3 iframe {
   border-radius: 8px;
+}
+
+#slide-menu {
+  width: 100%;
+  position: absolute;
+  height: 80vh;
+  left: -100%;
+  background-color: #FFFFFF;
+  transition-duration: 0.3s;
+}
+
+.slide-menu {
+  height: 100%;
+  padding-top: 85px;
+}
+
+.slide-menu a {
+  color: #254063;
+  line-height: 28px;
+}
+
+.slide-menu a:hover {
+  color: #FF647C;
+}
+
+.slide-menu li {
+  margin-top: 10px;
 }
 
 .button.is-grey.is-outlined {

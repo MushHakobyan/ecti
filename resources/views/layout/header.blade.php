@@ -1,8 +1,8 @@
 <div class="header">
-    <div class="container is-fullhd">
+    <div class="container is-fullhd is-clipped">
         <div class="columns is-marginless" style="padding: 45px 0">
             <span class="is-1 is-paddingless">
-                <a>
+                <a onclick="slide()">
                     <figure class="image is-46x46">
                         <img src="{{ asset('svg/Group-8.svg') }}">
                     </figure>
@@ -11,7 +11,7 @@
             <div class="column is-3 is-offset-1 is-paddingless is-flex">
                 <p class="has-text-right">Executive Coaching and Training Institute</h6>
                 <figure class="image">
-                    <a>
+                    <a href="/">
                         <img src="{{ asset('svg/logo.svg') }}">
                     </a>
                 </figure>
@@ -27,6 +27,9 @@
                     </figure>
                 </div>
             </div>
+        </div>
+                <div id="slide-menu">
+            @include('pages/includes.menu')
         </div>
     </div>
 </div>  
