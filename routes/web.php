@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/contact-us', function () {
     return view('pages.contact-us');
 });
+
+Route::get('/explore', function () {
+    return view('pages.explore');
+});

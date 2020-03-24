@@ -13,42 +13,11 @@
     </head>
     <body>
         @include('layout.header')
+        <div class="yield">
+          @yield('content')
+        </div>
+        
 
-        @yield('home')
-
-
-        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
-        <script>
-            var mySwiper = new Swiper ('.swiper-container', {
-              spaceBetween: 40,
-              breakpoints: {
-                769: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-                // 1216: { slidesPerView: 3 }
-              }
-            })
-            var mySwiper1 = new Swiper ('.swiper-container-1', {
-              spaceBetween: 40,
-              breakpoints: {
-                769: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-                1216: { slidesPerView: 4 }
-              }
-            })
-            var mySwiper2 = new Swiper ('.swiper-container-2', {
-              spaceBetween: 110,
-              breakpoints: {
-                769: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-                1216: { slidesPerView: 4 }
-              }
-            })
-
-
-            function slide() {
-              let slide = document.getElementById('slide-menu');
-              slide.style.left = '0';
-            }
-        </script>
+        <script src="{{asset('js/app.js')}}"></script>
     </body>
 </html>
