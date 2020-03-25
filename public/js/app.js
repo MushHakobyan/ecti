@@ -9360,7 +9360,7 @@ function closeMenu() {
 menuClose.addEventListener('click', function () {
   return closeMenu();
 });
-var mySwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.swiper-container', {
+var upcomCoursSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.upcoming-courses-swiper', {
   spaceBetween: 40,
   breakpoints: {
     769: {
@@ -9372,7 +9372,7 @@ var mySwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.swiper-conta
 
   }
 });
-var mySwiper1 = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.swiper-container-1', {
+var memberSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.members-swiper', {
   spaceBetween: 40,
   breakpoints: {
     769: {
@@ -9386,7 +9386,7 @@ var mySwiper1 = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.swiper-cont
     }
   }
 });
-var mySwiper2 = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.tutors-section', {
+var tutorSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.tutors-swiper', {
   spaceBetween: 110,
   breakpoints: {
     769: {
@@ -9398,6 +9398,18 @@ var mySwiper2 = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.tutors-sect
     1216: {
       slidesPerView: 4
     }
+  }
+});
+var trainCoursSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.training-courses-swiper', {
+  spaceBetween: 110,
+  breakpoints: {
+    769: {
+      slidesPerView: 2
+    },
+    1024: {
+      slidesPerView: 3
+    } // 1216: { slidesPerView: 4 }
+
   }
 });
 var pagePrev = window.pageYOffset;

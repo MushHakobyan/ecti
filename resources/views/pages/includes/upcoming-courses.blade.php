@@ -21,7 +21,7 @@
                 <div class="">
                     <h2>Upcoming Courses</h2>
                 </div>
-                <div class="swiper-container" style="padding: 20px 10px; margin-left: -10px">
+                <div class="upcoming-courses-swiper">
                     <div class="swiper-wrapper">
                         @foreach ([1, 2, 3] as $item)
                             <div class="swiper-slide">

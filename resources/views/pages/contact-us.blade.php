@@ -1,6 +1,6 @@
 @extends('index')
 
-    @section('home')
+    @section('content')
         <div class="container is-fullhd">
             <div class="contact-us is-flex columns is-marginless">
                 <div class="column is-paddingless body-1">

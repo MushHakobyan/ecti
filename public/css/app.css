@@ -258,6 +258,11 @@ small {
   color: #00C48C;
 }
 
+.upcoming-courses .upcoming-courses-swiper {
+  padding: 20px 10px;
+  margin-left: -10px;
+}
+
 .upcoming-courses h2 {
   padding-left: 5px;
 }
@@ -297,7 +302,7 @@ small {
   background-color: rgba(255, 200, 168, 0.5);
 }
 
-.tutors .tutors-section {
+.tutors .tutors-swiper {
   border-radius: 16px;
   padding: 40px;
   background: linear-gradient(194.04deg, rgba(89, 170, 217, 0.1) 3.26%, rgba(35, 143, 205, 0.1) 100%);
@@ -311,20 +316,24 @@ small {
   margin-right: 30px;
 }
 
-.tutors .tutors-content {
+.tutors .card {
+  background-color: inherit;
+}
+
+.tutors .card-content {
   margin-left: 23px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-.tutors .line-2 {
-  margin-top: 60px;
+.tutors .card-image {
+  border-radius: 24px;
 }
 
-.tutors img {
-  width: 100px;
-  height: 100px;
+.tutors .line-2 {
+  margin-top: 60px;
 }
 
 .get-started {
@@ -349,6 +358,10 @@ small {
 
 .training-courses h1 {
   padding: 35px 0 55px 0;
+}
+
+.training-courses .training-courses-swiper {
+  padding: 5px 5px 20px;
 }
 
 .training-courses .load-more-content {
@@ -387,6 +400,10 @@ small {
 .members {
   background-color: rgba(210, 216, 223, 0.1);
   padding: 150px 0 100px;
+}
+
+.members .members-swiper {
+  padding: 0 5px;
 }
 
 .members .card {

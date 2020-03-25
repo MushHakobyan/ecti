@@ -23,7 +23,7 @@
 
         <div class="container is-fullhd training-courses">
             <h1 class="has-text-centered">Current Training Courses</h1>
-            <div class="swiper-container" style="padding: 5px 5px 20px">
+            <div class="training-courses-swiper">
                 <div class="swiper-wrapper">
                     @foreach ([1, 2, 3] as $item)
                         <div class="swiper-slide">
@@ -64,7 +64,7 @@
 
         <div class="members">
             <div class="container is-fullhd">
-                <div class="swiper-container-1" style="padding: 0 5px">
+                <div class="members-swiper">
                     <div class="swiper-wrapper">
                         @foreach ([1, 2, 3, 4] as $item)
                             <div class="swiper-slide">

@@ -27,7 +27,7 @@ function closeMenu() {
 
 menuClose.addEventListener('click', () => closeMenu())
 
-var mySwiper = new Swiper ('.swiper-container', {
+var upcomCoursSwiper = new Swiper ('.upcoming-courses-swiper', {
     spaceBetween: 40,
     breakpoints: {
       769: { slidesPerView: 2 },
@@ -35,7 +35,7 @@ var mySwiper = new Swiper ('.swiper-container', {
       // 1216: { slidesPerView: 3 }
     }
   })
-  var mySwiper1 = new Swiper ('.swiper-container-1', {
+  var memberSwiper = new Swiper ('.members-swiper', {
     spaceBetween: 40,
     breakpoints: {
       769: { slidesPerView: 2 },
@@ -43,7 +43,7 @@ var mySwiper = new Swiper ('.swiper-container', {
       1216: { slidesPerView: 4 }
     }
   })
-  var mySwiper2 = new Swiper ('.tutors-section', {
+  var tutorSwiper = new Swiper ('.tutors-swiper', {
     spaceBetween: 110,
     breakpoints: {
       769: { slidesPerView: 2 },
@@ -52,6 +52,14 @@ var mySwiper = new Swiper ('.swiper-container', {
     }
   })
 
+  var trainCoursSwiper = new Swiper ('.training-courses-swiper', {
+    spaceBetween: 110,
+    breakpoints: {
+      769: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 },
+      // 1216: { slidesPerView: 4 }
+    }
+  })
 let pagePrev = window.pageYOffset;
 function hideHeader() {
     let pageNow = window.pageYOffset;
