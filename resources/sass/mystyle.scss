@@ -106,13 +106,14 @@ small {
             border-radius: 6px;
             font-weight: 600;
             font-size: 24px;
-            padding: 0 0 0 25px;
-            height: 35px;
+            padding: 0 30px 0 25px;
+            padding-right: 0;
+            height: auto;
         }
         .is-medium select {
             font-size: 36px;
-            height: 58px;
-            padding-left: 18px;
+            height: auto;
+            padding: 0 48px 0 18px;
         }
         h1 {
             margin-right: 30px;
@@ -141,9 +142,10 @@ small {
     }
     h2 { padding-left: 10px }
     .card {
-        border-radius: 8px;
-        .card-image { 
-            border-radius: 8px 0 0 8px;
+        border-radius: 8px;          
+        figure { border-radius: 8px 0 0 8px }
+        img {
+            border-radius: inherit;
             height: 200px;
             width: 300px;
         }
@@ -183,16 +185,26 @@ small {
         a:hover { color: $green }
     }
     .swiper-container {
-        padding: 20px 10px;
-        margin-left: -10px;
+        padding: 20px;
+        margin-left: -20px;
     }
     h2 { padding-left: 5px }
     .explore-all { padding: 0px 0 0 25px }
     .card {
         border-radius: 8px;
-        .card-image { 
+        &:hover {
+            figure { background-color: '' }
+            img { opacity: 1 }
+        }
+        figure { 
+            background: $orange;
             border-radius: 8px 8px 0 0;
-            // height: 180px;
+        }
+        img {
+            height: 180px;
+            width: 320px;
+            opacity: 0.5;
+            border-radius: inherit;
         }
         .card-content {
             padding: 25px 24px 22px 27px;
@@ -215,7 +227,6 @@ small {
         }
     }
 }
-
 .tutors {
     .tutors-swiper {
         border-radius: 16px;
@@ -232,7 +243,8 @@ small {
         flex-direction: column;
         justify-content: space-evenly;
     }
-    .card-image { border-radius: 24px }
+    figure { border-radius: 24px }
+    img { border-radius: inherit }
     .line-2 { margin-top: 60px }
 }
 .get-started {
@@ -265,7 +277,13 @@ small {
         font-size: 17px;
     }
     .card { border-radius: 8px }
-    .card-image { border-radius: 8px 0 0 8px }
+    .card-image { 
+        figure { border-radius: 8px 0 0 8px }
+        img {
+            opacity: 0.7;
+            border-radius: inherit;
+        }
+    }
     .line-2 { margin-top: 40px }
     .card-content {
         padding: 21px 26px 23px 17px;

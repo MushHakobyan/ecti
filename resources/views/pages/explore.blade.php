@@ -6,27 +6,33 @@
                     <div class="is-flex">
                         <h1>Training plan</h1>
                         <div class="field">
-                            <div class="control">
-                              <div class="select is-medium">
-                                <select>
+                            <div class="control has-icons-right">
+                              <div class="select is-medium is-multiple">
+                                <select style="padding-right: 48px">
                                   <option>2020</option>
                                   <option>2021</option>
                                   <option>2022</option>
                                 </select>
                               </div>
+                              <figure class="icon icon is-medium is-right">
+                                <img src="{{asset('svg/select-arrow.svg')}}">
+                              </figure>
                             </div>
                           </div>
                     </div>
                     <div class="is-flex">
                         <h3>Sort by</h3>
                         <div class="field">
-                            <div class="control">
-                              <div class="select">
+                            <div class="control has-icons-right">
+                              <div class="select is-multiple">
                                 <select>
                                   <option>Title</option>
                                   <option>Date</option>
                                 </select>
                               </div>
+                              <figure class="icon icon is-medium is-right">
+                                <img src="{{asset('svg/select-arrow-small.svg')}}">
+                              </figure>
                             </div>
                           </div>
                     </div>

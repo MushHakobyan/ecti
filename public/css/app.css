@@ -146,14 +146,15 @@ small {
   border-radius: 6px;
   font-weight: 600;
   font-size: 24px;
-  padding: 0 0 0 25px;
-  height: 35px;
+  padding: 0 30px 0 25px;
+  padding-right: 0;
+  height: auto;
 }
 
 .explore .explore-header .is-medium select {
   font-size: 36px;
-  height: 58px;
-  padding-left: 18px;
+  height: auto;
+  padding: 0 48px 0 18px;
 }
 
 .explore .explore-header h1 {
@@ -201,8 +202,12 @@ small {
   border-radius: 8px;
 }
 
-.explore .card .card-image {
+.explore .card figure {
   border-radius: 8px 0 0 8px;
+}
+
+.explore .card img {
+  border-radius: inherit;
   height: 200px;
   width: 300px;
 }
@@ -255,8 +260,8 @@ small {
 }
 
 .upcoming-courses .swiper-container {
-  padding: 20px 10px;
-  margin-left: -10px;
+  padding: 20px;
+  margin-left: -20px;
 }
 
 .upcoming-courses h2 {
@@ -271,8 +276,24 @@ small {
   border-radius: 8px;
 }
 
-.upcoming-courses .card .card-image {
+.upcoming-courses .card:hover figure {
+  background-color: "";
+}
+
+.upcoming-courses .card:hover img {
+  opacity: 1;
+}
+
+.upcoming-courses .card figure {
+  background: #ffa16b;
   border-radius: 8px 8px 0 0;
+}
+
+.upcoming-courses .card img {
+  height: 180px;
+  width: 320px;
+  opacity: 0.5;
+  border-radius: inherit;
 }
 
 .upcoming-courses .card .card-content {
@@ -324,8 +345,12 @@ small {
   justify-content: space-evenly;
 }
 
-.tutors .card-image {
+.tutors figure {
   border-radius: 24px;
+}
+
+.tutors img {
+  border-radius: inherit;
 }
 
 .tutors .line-2 {
@@ -374,8 +399,13 @@ small {
   border-radius: 8px;
 }
 
-.training-courses .card-image {
+.training-courses .card-image figure {
   border-radius: 8px 0 0 8px;
+}
+
+.training-courses .card-image img {
+  opacity: 0.7;
+  border-radius: inherit;
 }
 
 .training-courses .line-2 {
@@ -4359,7 +4389,7 @@ fieldset[disabled] .button {
 }
 
 .progress::-webkit-progress-bar {
-  background-color: #D3D9E0;
+  background-color: #d2d8df;
 }
 
 .progress::-webkit-progress-value {
@@ -4388,7 +4418,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-white:indeterminate {
-  background-image: linear-gradient(to right, #FFFFFF 30%, #D3D9E0 30%);
+  background-image: linear-gradient(to right, #FFFFFF 30%, #d2d8df 30%);
 }
 
 .progress.is-black::-webkit-progress-value {
@@ -4404,7 +4434,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-black:indeterminate {
-  background-image: linear-gradient(to right, #07080E 30%, #D3D9E0 30%);
+  background-image: linear-gradient(to right, #07080E 30%, #d2d8df 30%);
 }
 
 .progress.is-light::-webkit-progress-value {
@@ -4420,7 +4450,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-light:indeterminate {
-  background-image: linear-gradient(to right, #CCCCCC 30%, #D3D9E0 30%);
+  background-image: linear-gradient(to right, #CCCCCC 30%, #d2d8df 30%);
 }
 
 .progress.is-dark::-webkit-progress-value {
@@ -4436,7 +4466,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-dark:indeterminate {
-  background-image: linear-gradient(to right, #1A2D45 30%, #D3D9E0 30%);
+  background-image: linear-gradient(to right, #1A2D45 30%, #d2d8df 30%);
 }
 
 .progress.is-primary::-webkit-progress-value {
@@ -4452,7 +4482,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-primary:indeterminate {
-  background-image: linear-gradient(to right, #19B89C 30%, #D3D9E0 30%);
+  background-image: linear-gradient(to right, #19B89C 30%, #d2d8df 30%);
 }
 
 .progress.is-link::-webkit-progress-value {
@@ -4468,7 +4498,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-link:indeterminate {
-  background-image: linear-gradient(to right, #0084F4 30%, #D3D9E0 30%);
+  background-image: linear-gradient(to right, #0084F4 30%, #d2d8df 30%);
 }
 
 .progress.is-info::-webkit-progress-value {
@@ -4484,7 +4514,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-info:indeterminate {
-  background-image: linear-gradient(to right, #238FCC 30%, #D3D9E0 30%);
+  background-image: linear-gradient(to right, #238FCC 30%, #d2d8df 30%);
 }
 
 .progress.is-success::-webkit-progress-value {
@@ -4500,7 +4530,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-success:indeterminate {
-  background-image: linear-gradient(to right, #00C48C 30%, #D3D9E0 30%);
+  background-image: linear-gradient(to right, #00C48C 30%, #d2d8df 30%);
 }
 
 .progress.is-warning::-webkit-progress-value {
@@ -4516,7 +4546,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-warning:indeterminate {
-  background-image: linear-gradient(to right, #ffce5c 30%, #D3D9E0 30%);
+  background-image: linear-gradient(to right, #ffce5c 30%, #d2d8df 30%);
 }
 
 .progress.is-danger::-webkit-progress-value {
@@ -4532,7 +4562,7 @@ fieldset[disabled] .button {
 }
 
 .progress.is-danger:indeterminate {
-  background-image: linear-gradient(to right, #FF647C 30%, #D3D9E0 30%);
+  background-image: linear-gradient(to right, #FF647C 30%, #d2d8df 30%);
 }
 
 .progress:indeterminate {
@@ -4544,8 +4574,8 @@ fieldset[disabled] .button {
           animation-name: moveIndeterminate;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  background-color: #D3D9E0;
-  background-image: linear-gradient(to right, #254063 30%, #D3D9E0 30%);
+  background-color: #d2d8df;
+  background-image: linear-gradient(to right, #254063 30%, #d2d8df 30%);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 150% 150%;
@@ -6775,7 +6805,7 @@ fieldset[disabled] .select select:hover {
 
 .card {
   background-color: #FFFFFF;
-  box-shadow: 0 0.5em 1em -0.125em rgba(7, 8, 14, 0.1), 0 0px 0 1px rgba(7, 8, 14, 0.02);
+  box-shadow: 0px 10px 32px rgba(37, 64, 99, 0.1);
   color: #254063;
   max-width: 100%;
   position: relative;
@@ -6821,7 +6851,7 @@ fieldset[disabled] .select select:hover {
 
 .card-footer {
   background-color: transparent;
-  border-top: 1px solid #D3D9E0;
+  border-top: 1px solid #d2d8df;
   align-items: stretch;
   display: flex;
 }
@@ -6837,7 +6867,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .card-footer-item:not(:last-child) {
-  border-right: 1px solid #D3D9E0;
+  border-right: 1px solid #d2d8df;
 }
 
 .card .media:not(:last-child) {
@@ -6915,7 +6945,7 @@ button.dropdown-item.is-active {
 }
 
 .dropdown-divider {
-  background-color: #D3D9E0;
+  background-color: #d2d8df;
   border: none;
   display: block;
   height: 1px;
@@ -9057,11 +9087,11 @@ a.navbar-item.is-active,
 
 .panel-tabs:not(:last-child),
 .panel-block:not(:last-child) {
-  border-bottom: 1px solid #D3D9E0;
+  border-bottom: 1px solid #d2d8df;
 }
 
 .panel-heading {
-  background-color: #D3D9E0;
+  background-color: #d2d8df;
   border-radius: 16px 16px 0 0;
   color: #1A2D45;
   font-size: 1.25em;

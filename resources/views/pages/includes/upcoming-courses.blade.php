@@ -29,7 +29,7 @@
                                     <div class="card">
                                         <div class="card-image">
                                             <figure class="image">
-                                                <img src="{{ asset('img/upcoming-courses-'.$item.'.png') }}">
+                                                <img src="{{ asset('img/explore-'.$item.'.png') }}">
                                             </figure>
                                         </div>
                                         <div class="card-content">

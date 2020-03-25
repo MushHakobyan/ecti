@@ -31,7 +31,7 @@
                                 <div class="card is-flex line-1">
                                     <div class="card-image">
                                         <figure class="image is-150x150">
-                                            <img src="{{ asset('img/tutor-1.png') }}" alt="">
+                                            <img src="{{ asset('img/tutor1.png') }}" alt="">
                                         </figure>
                                     </div>
                                     <div class="card-content">
@@ -44,7 +44,7 @@
                                 <div class="card is-flex line-2">
                                     <div class="card-image">
                                         <figure class="image is-150x150">
-                                            <img src="{{ asset('img/tutor-1.png') }}" alt="">
+                                            <img src="{{ asset('img/tutor1.png') }}" alt="">
                                         </figure>
                                     </div>
                                     <div class="card-content">

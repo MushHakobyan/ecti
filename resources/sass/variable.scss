@@ -31,7 +31,7 @@ $grey-dark:    #254063 !default;
 $grey:         #516682 !default;
 $grey-light:   #7C8CA1 !default;
 $grey-lighter: #A8B3C1 !default;
-$grey-lightest: #D3D9E0 !default;
+$grey-lightest: hsl(212, 17%, 85%) !default;
 
 $white-ter:    #CCCCCC !default;
 $white-bis:    #F3F3F3 !default;
@@ -72,5 +72,5 @@ $pagination-hover-color: $grey;
 
 $column-gap: 20px;
 $fullhd: 1464px;
-
+$card-shadow: 0px 10px 32px rgba(37, 64, 99, 0.1);
 $link-hover: $red;
