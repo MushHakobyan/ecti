@@ -21,14 +21,14 @@
                 <div class="">
                     <h2>Upcoming Courses</h2>
                 </div>
-                <div class="upcoming-courses-swiper">
+                <div class="swiper-container">
                     <div class="swiper-wrapper">
                         @foreach ([1, 2, 3] as $item)
                             <div class="swiper-slide">
                                 <a href="">
                                     <div class="card">
                                         <div class="card-image">
-                                            <figure class="image is-4by3">
+                                            <figure class="image">
                                                 <img src="{{ asset('img/upcoming-courses-'.$item.'.png') }}">
                                             </figure>
                                         </div>

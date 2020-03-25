@@ -53,9 +53,6 @@ small {
         font-weight: 600;
         line-height: 23px;
     }
-    .open-menu rect {
-        fill: red;
-    }
     figure.image {
         display: flex;
         align-items: center;
@@ -185,15 +182,18 @@ small {
         a { color: $grey }
         a:hover { color: $green }
     }
-    .upcoming-courses-swiper {
+    .swiper-container {
         padding: 20px 10px;
-        margin-left: -10px
+        margin-left: -10px;
     }
     h2 { padding-left: 5px }
     .explore-all { padding: 0px 0 0 25px }
     .card {
         border-radius: 8px;
-        .card-image { border-radius: 8px 8px 0 0 }
+        .card-image { 
+            border-radius: 8px 8px 0 0;
+            // height: 180px;
+        }
         .card-content {
             padding: 25px 24px 22px 27px;
             p { 
@@ -250,7 +250,6 @@ small {
     }
 }
 .training-courses {
-    a:hover { color: $red }
     h1 { padding: 35px 0 55px 0 }
     .training-courses-swiper { padding: 5px 5px 20px }
     .load-more-content {
@@ -357,7 +356,6 @@ small {
     a {
         color: $grey-dark;
         line-height: 28px;
-        &:hover { color: $red }
     }
     li { margin-top: 10px }
 }

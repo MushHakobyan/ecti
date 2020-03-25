@@ -27,7 +27,7 @@ function closeMenu() {
 
 menuClose.addEventListener('click', () => closeMenu())
 
-var upcomCoursSwiper = new Swiper ('.upcoming-courses-swiper', {
+var upcomCoursSwiper = new Swiper ('.swiper-container', {
     spaceBetween: 40,
     breakpoints: {
       769: { slidesPerView: 2 },
@@ -53,7 +53,7 @@ var upcomCoursSwiper = new Swiper ('.upcoming-courses-swiper', {
   })
 
   var trainCoursSwiper = new Swiper ('.training-courses-swiper', {
-    spaceBetween: 110,
+    spaceBetween: 40,
     breakpoints: {
       769: { slidesPerView: 2 },
       1024: { slidesPerView: 3 },

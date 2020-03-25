@@ -1,7 +1,7 @@
 <div class="container is-fullhd tutors is-clipped">
     <div class="level">
         <h2 class="level-left">Our tutors</h2>
-        <a class="has-text-weight-semibold level-right">See All</a>
+        <a href="" class="has-text-weight-semibold level-right">See All</a>
     </div>
     <div class="tutors-swiper">
         <div class="swiper-wrapper">

@@ -9360,7 +9360,7 @@ function closeMenu() {
 menuClose.addEventListener('click', function () {
   return closeMenu();
 });
-var upcomCoursSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.upcoming-courses-swiper', {
+var upcomCoursSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.swiper-container', {
   spaceBetween: 40,
   breakpoints: {
     769: {
@@ -9401,7 +9401,7 @@ var tutorSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.tutors-sw
   }
 });
 var trainCoursSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.training-courses-swiper', {
-  spaceBetween: 110,
+  spaceBetween: 40,
   breakpoints: {
     769: {
       slidesPerView: 2

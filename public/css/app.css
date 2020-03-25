@@ -78,10 +78,6 @@ small {
   line-height: 23px;
 }
 
-.header .open-menu rect {
-  fill: red;
-}
-
 .header figure.image {
   display: flex;
   align-items: center;
@@ -258,7 +254,7 @@ small {
   color: #00C48C;
 }
 
-.upcoming-courses .upcoming-courses-swiper {
+.upcoming-courses .swiper-container {
   padding: 20px 10px;
   margin-left: -10px;
 }
@@ -350,10 +346,6 @@ small {
   height: 70px;
   font-size: 20px;
   line-height: 22px;
-}
-
-.training-courses a:hover {
-  color: #FF647C;
 }
 
 .training-courses h1 {
@@ -502,10 +494,6 @@ small {
 .slide-menu a {
   color: #254063;
   line-height: 28px;
-}
-
-.slide-menu a:hover {
-  color: #FF647C;
 }
 
 .slide-menu li {
@@ -994,7 +982,7 @@ a strong {
 }
 
 a:hover {
-  color: #1A2D45;
+  color: #FF647C;
 }
 
 code {
@@ -2289,7 +2277,7 @@ a.box:active {
 .button:hover,
 .button.is-hovered {
   border-color: #7C8CA1;
-  color: #1A2D45;
+  color: #FF647C;
 }
 
 .button:focus,
@@ -6708,7 +6696,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .breadcrumb a:hover {
-  color: #1A2D45;
+  color: #FF647C;
 }
 
 .breadcrumb li {
@@ -8816,7 +8804,7 @@ a.navbar-item.is-active,
 .pagination-next:hover,
 .pagination-link:hover {
   border-color: #7C8CA1;
-  color: #1A2D45;
+  color: #516682;
 }
 
 .pagination-previous:focus,
