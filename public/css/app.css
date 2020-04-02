@@ -53,6 +53,10 @@ small {
   line-height: 13px;
 }
 
+.card {
+  border-radius: 8px;
+}
+
 .header {
   position: -webkit-sticky;
   position: sticky;
@@ -66,8 +70,16 @@ small {
   padding: 45px 0;
 }
 
-.header .closeMenu {
+.header .close-menu {
   display: none;
+}
+
+.header svg:hover rect {
+  fill: #254063;
+}
+
+.header svg:hover circle {
+  opacity: 1;
 }
 
 .header p {
@@ -170,36 +182,20 @@ small {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  opacity: 1;
 }
 
 .explore .explore-header .is-flex {
   align-items: center;
 }
 
-.explore .pagination {
-  padding: 90px 0;
-}
-
-.explore .aside-menu {
-  font-size: 17px;
-  line-height: 36px;
-  padding: 20px 0 20px 40px;
-}
-
-.explore .aside-menu a {
-  color: #516682;
-}
-
-.explore .aside-menu a:hover {
-  color: #00C48C;
-}
-
-.explore h2 {
+.explore .menu {
   padding-left: 10px;
+  font-size: 17px;
 }
 
-.explore .card {
-  border-radius: 8px;
+.explore .menu .menu-label {
+  margin-bottom: 10px;
 }
 
 .explore .card figure {
@@ -223,18 +219,18 @@ small {
   margin-left: 40px;
 }
 
-.explore .card .body-2 {
+.explore .card .content div {
   display: flex;
   align-items: center;
   color: #CCCCCC;
 }
 
-.explore .card .body-2 .body-1 {
+.explore .card .content div span:nth-child(2) {
   margin: 0 32px 0 17px;
   color: #45464A;
 }
 
-.explore .card .body-2 .is-tag {
+.explore .card .content div .is-tag {
   border-radius: 6px;
   padding: 7px 16px;
   color: #45464A;
@@ -245,18 +241,14 @@ small {
   padding: 70px 0;
 }
 
-.upcoming-courses .aside-menu {
+.upcoming-courses .menu {
+  padding-left: 5px;
   font-size: 17px;
-  line-height: 36px;
-  padding: 20px 0 20px 25px;
+  margin-bottom: 20px;
 }
 
-.upcoming-courses .aside-menu a {
-  color: #516682;
-}
-
-.upcoming-courses .aside-menu a:hover {
-  color: #00C48C;
+.upcoming-courses .menu .menu-label {
+  margin-bottom: 10px;
 }
 
 .upcoming-courses .swiper-container {
@@ -264,20 +256,12 @@ small {
   margin-left: -20px;
 }
 
-.upcoming-courses h2 {
-  padding-left: 5px;
-}
-
 .upcoming-courses .explore-all {
-  padding: 0px 0 0 25px;
-}
-
-.upcoming-courses .card {
-  border-radius: 8px;
+  padding-left: 35px;
 }
 
 .upcoming-courses .card:hover figure {
-  background-color: "";
+  background: #FFFFFF;
 }
 
 .upcoming-courses .card:hover img {
@@ -426,10 +410,6 @@ small {
 
 .members .members-swiper {
   padding: 0 5px;
-}
-
-.members .card {
-  border-radius: 8px;
 }
 
 .members .card .card-image {
@@ -7194,19 +7174,19 @@ a.list-item {
 
 .menu-list a {
   border-radius: 4px;
-  color: #254063;
+  color: #516682;
   display: block;
-  padding: 0.5em 0.75em;
+  padding: 8px 30px;
 }
 
 .menu-list a:hover {
-  background-color: #CCCCCC;
-  color: #1A2D45;
+  background-color: #FFFFFF;
+  color: #00C48C;
 }
 
 .menu-list a.is-active {
-  background-color: #0084F4;
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #00C48C;
 }
 
 .menu-list li ul {
@@ -7216,9 +7196,9 @@ a.list-item {
 }
 
 .menu-label {
-  color: #516682;
-  font-size: 0.75em;
-  letter-spacing: 0.1em;
+  color: #254063;
+  font-size: 36px;
+  letter-spacing: 0;
   text-transform: uppercase;
 }
 
@@ -8776,7 +8756,7 @@ a.navbar-item.is-active,
 
 .pagination {
   font-size: 1rem;
-  margin: -0.25rem;
+  margin: 90px 0;
 }
 
 .pagination.is-small {

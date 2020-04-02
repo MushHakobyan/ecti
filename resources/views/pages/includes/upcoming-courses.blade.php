@@ -2,19 +2,21 @@
     <div class="container is-fullhd">
         <div class="columns is-marginless">
             <div class="column is-3 is-paddingless">
-                <h2>Explore</h2>               
-                <ul class="aside-menu">
-                    <li><a href="">Business</a></li>
-                    <li><a href="">Computer Science</a></li>
-                    <li><a href="">Math & logic</a></li>
-                    <li><a href="">Personal Development</a></li>
-                    <li><a href="">Arts</a></li>
-                    <li><a href="">Human Rights</a></li>
-                    <li><a href="">Data Science</a></li>
-                    <li><a href="">Web Design</a></li>
-                    <li><a href="">Security</a></li>
-                    <li><a href="">Telecom</a></li>
-                </ul>
+                <div class="menu">
+                    <p class="menu-label has-text-weight-semibold is-capitalized">Explore</p>               
+                    <ul class="menu-list">
+                        <li><a href="">Business</a></li>
+                        <li><a href="">Computer Science</a></li>
+                        <li><a href="">Math & logic</a></li>
+                        <li><a href="">Personal Development</a></li>
+                        <li><a href="">Arts</a></li>
+                        <li><a href="">Human Rights</a></li>
+                        <li><a href="">Data Science</a></li>
+                        <li><a href="">Web Design</a></li>
+                        <li><a href="">Security</a></li>
+                        <li><a href="">Telecom</a></li>
+                    </ul>
+                </div>
                 <a href="explore" class="has-text-weight-semibold explore-all">Explore All</a>
             </div>
             <div class="column is-9 is-paddingless">

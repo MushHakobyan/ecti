@@ -13,8 +13,8 @@
                 </figure>
             </div>
         </div>
-        @include('pages/includes.upcoming-courses')
-        @include('pages/includes.tutors')
+        @include('pages.includes.upcoming-courses')
+        @include('pages.includes.tutors')
         <div class="get-started">
             <h1>It’s easy to get started</h1>
             <p class="is-size-5">Jouin our platform for free. Just click button below</p>
@@ -82,7 +82,7 @@
                                             <h3>Anna Bakunts</h3>
                                         </div>
                                     </div>
-                                </a>                                
+                                </a>
                             </div>
                         @endforeach
                     </div>

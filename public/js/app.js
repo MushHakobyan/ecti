@@ -9329,36 +9329,72 @@ Swiper.use(components);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/js/swiper.esm.bundle.js");
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var menu = document.getElementById('slide-menu');
-var menuOpen = document.querySelector('.openMenu');
-var menuClose = document.querySelector('.closeMenu');
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
 
-function openMenu() {
-  menu.style.opacity = '1';
-  menu.style.left = '0';
-  menuOpen.style.display = 'none';
-  menuClose.style.display = 'flex';
-  document.querySelector('.header').style.position = 'fixed';
-  document.querySelector('.yield').style.paddingTop = '136px';
-}
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
-menuOpen.addEventListener('click', function () {
-  return openMenu();
+
+
+var Menu = /*#__PURE__*/function () {
+  function Menu() {
+    _classCallCheck(this, Menu);
+
+    this.menu = document.getElementById('slide-menu');
+    this.menuOpen = document.querySelector('.open-menu');
+    this.menuClose = document.querySelector('.close-menu');
+    this.pagePrev = window.pageYOffset;
+  }
+
+  _createClass(Menu, [{
+    key: "openMenu",
+    value: function openMenu() {
+      this.menu.style.opacity = '1';
+      this.menu.style.left = '0';
+      this.menuOpen.style.display = 'none';
+      this.menuClose.style.display = 'flex';
+      document.querySelector('.header').style.position = 'fixed';
+      document.querySelector('.yield').style.paddingTop = '136px';
+    }
+  }, {
+    key: "closeMenu",
+    value: function closeMenu() {
+      document.querySelector('.yield').style.paddingTop = '0';
+      this.menu.style.left = '-100%';
+      this.menu.style.opacity = '0';
+      this.menuOpen.style.display = '';
+      this.menuClose.style.display = '';
+      document.querySelector('.header').style.position = 'sticky';
+      document.querySelector('.header').style.top = '0';
+    }
+  }, {
+    key: "hideHeader",
+    value: function hideHeader() {
+      var pageNow = window.pageYOffset;
+
+      if (pageNow - this.pagePrev < 0) {
+        document.querySelector(".header").style.top = '0';
+      } else {
+        document.querySelector(".header").style.top = '';
+      }
+
+      this.pagePrev = pageNow;
+    }
+  }]);
+
+  return Menu;
+}();
+
+var menu = new Menu();
+menu.menuOpen.addEventListener('click', function () {
+  return menu.openMenu();
 });
-
-function closeMenu() {
-  document.querySelector('.yield').style.paddingTop = '0';
-  menu.style.left = '-100%';
-  menu.style.opacity = '0';
-  menuOpen.style.display = '';
-  menuClose.style.display = '';
-  document.querySelector('.header').style.position = 'sticky';
-  document.querySelector('.header').style.top = '0';
-}
-
-menuClose.addEventListener('click', function () {
-  return closeMenu();
+menu.menuClose.addEventListener('click', function () {
+  return menu.closeMenu();
+});
+document.addEventListener("scroll", function () {
+  return menu.hideHeader();
 });
 var upcomCoursSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.swiper-container', {
   spaceBetween: 40,
@@ -9411,23 +9447,6 @@ var trainCoursSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.trai
     } // 1216: { slidesPerView: 4 }
 
   }
-});
-var pagePrev = window.pageYOffset;
-
-function hideHeader() {
-  var pageNow = window.pageYOffset;
-
-  if (pageNow - pagePrev < 0) {
-    document.querySelector(".header").style.top = '0';
-  } else {
-    document.querySelector(".header").style.top = '';
-  }
-
-  pagePrev = pageNow;
-}
-
-document.addEventListener("scroll", function () {
-  return hideHeader();
 });
 
 /***/ }),

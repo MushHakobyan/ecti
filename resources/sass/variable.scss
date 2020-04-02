@@ -65,10 +65,21 @@ $radius-large: 16px !default;
 $radius-rounded: 290486px !default;
 
 $pagination-color: $grey-light;
+$pagination-margin: 90px 0;
 $pagination-current-background-color: $green;
 $pagination-current-border-color: $green;
 $pagination-focus-border-color: $green;
 $pagination-hover-color: $grey;
+
+$menu-item-hover-background-color: $white;
+$menu-item-hover-color: $green;
+$menu-item-color: $grey;
+$menu-item-active-color: $green;
+$menu-item-active-background-color: $white;
+$menu-label-color: $grey-dark;
+$menu-label-font-size: 36px;
+$menu-label-letter-spacing: 0;
+$menu-list-link-padding: 8px 30px;
 
 $column-gap: 20px;
 $fullhd: 1464px;
