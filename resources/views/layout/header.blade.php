@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header has-background-white">
     <div class="container is-fullhd">
         <div class="columns is-marginless">
             <div class="column is-1 is-paddingless">
@@ -58,7 +58,7 @@
             </div>
         </div>
     </div>
-    <div id="slide-menu">
+    <div id="slide-menu" class="has-background-white">
         @include('pages.includes.menu')
     </div>
 </div>

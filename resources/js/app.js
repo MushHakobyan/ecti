@@ -59,7 +59,7 @@ var memberSwiper = new Swiper ('.members-swiper', {
   }
 })
 var tutorSwiper = new Swiper ('.tutors-swiper', {
-  spaceBetween: 110,
+  spaceBetween: 70,
   breakpoints: {
     769: { slidesPerView: 2 },
     1024: { slidesPerView: 3 },

@@ -37,10 +37,10 @@
                                         <div class="card-content">
                                             <div class="content">
                                                 <h4>The Data Science Course 2020: Complete Data Science Bootcamp</h4>
-                                                <p class="body-1">Mathematics, Statistics, Python</p>
-                                                <div class="body-2">
-                                                    <span class="is-tag">Data Scince</span>
-                                                    <span>10 July, 2020</span>
+                                                <p class="content-normal has-text-black-ter">Mathematics, Statistics, Python</p>
+                                                <div class="content-small">
+                                                    <span class="is-tag has-text-black-ter">Data Scince</span>
+                                                    <span class="has-text-white-ter">10 July, 2020</span>
                                                 </div>
                                             </div>
                                         </div>

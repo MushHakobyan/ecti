@@ -1,0 +1,101 @@
+@import '~bulma/sass/utilities/functions.sass';
+
+// Color
+
+$orange:       rgb(255, 161, 107) !default;
+$orange-bis:   rgb(255, 200, 168);
+$orange-ter:   rgb(255, 233, 219);
+$yellow:       rgb(255, 206, 92) !default;
+$yellow-bis:   rgb(255, 226, 157);
+$yellow-ter:   rgb(255, 248, 231);
+$green:        rgb(0, 196, 140) !default;
+$green-bis:    rgb(124, 222, 195);
+$green-ter:    rgb(125, 223, 195);
+$turquoise:    rgb(25, 184, 155) !default;
+$turquoise-bis:rgb(139, 218, 204);
+$turquoise-ter:rgb(196, 237, 230);
+$cyan:         rgb(35, 143, 204) !default;
+$cyan-bis:     rgb(90, 171, 217);
+$cyan-ter:     rgb(201, 228, 242);
+$blue:         rgb(0, 132, 244) !default;
+$blue-bis:     rgb(102, 181, 248);
+$blue-ter:     rgb(213, 233, 250);
+$red:          rgb(255, 100, 124) !default;
+$red-bis:      rgb(253, 175, 187);
+$red-ter:      rgb(251, 228, 232);
+
+$black:        rgb(7, 8, 14) !default;
+$black-bis:    rgb(32, 33, 38) !default;
+$black-ter:    rgb(69, 70, 74) !default;
+
+$grey-darker:  rgb(26, 45, 69) !default;
+$grey-dark:    rgb(37, 65, 101) !default;
+$grey:         rgb(81, 102, 130) !default;
+$grey-light:   rgb(124, 140, 161) !default;
+$grey-lighter: rgb(168, 179, 194) !default;
+$grey-lightest: rgb(210, 216, 223) !default;
+
+$white-ter:    rgb(204, 204, 204) !default;
+$white-bis:    rgb(243, 243, 243) !default;
+$white:        rgb(255, 255, 255) !default;
+
+$grey-invert: findColorInvert($grey);
+$custom-colors: ('grey': ($grey, $grey-invert));
+
+// Typography
+
+$family-sans-serif: 'Inter', sans-serif;
+$body-color: $grey;
+
+// $size-1: 3rem !default
+// $size-2: 2.5rem !default
+// $size-3: 2rem !default
+// $size-4: 1.5rem !default
+// $size-5: 1.25rem !default
+// $size-6: 1rem !default
+// $size-7: 0.75rem !default
+
+// Responsiveness
+// The container horizontal gap, which acts as the offset for breakpoints
+$gap: 32px !default;
+// 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+$tablet: 769px !default;
+// 960px container + 4rem
+$desktop: 960px + (2 * $gap) !default;
+// 1152px container + 4rem
+$widescreen: 1152px + (2 * $gap) !default;
+// 1344px container + 4rem
+$fullhd: 1400px + (2 * $gap) !default;
+
+// Miscellaneous
+
+$radius-small: 4px !default;
+$radius: 8px !default;
+$radius-large: 16px !default;
+$radius-rounded: 290486px !default;
+
+//
+
+$pagination-color: $grey-light;
+$pagination-margin: 90px 0;
+$pagination-current-background-color: $green;
+$pagination-current-border-color: $green;
+$pagination-focus-border-color: $green;
+$pagination-hover-color: $grey;
+
+$menu-item-hover-background-color: $white;
+$menu-item-hover-color: $green;
+$menu-item-color: $grey;
+$menu-item-active-color: $green;
+$menu-item-active-background-color: $white;
+$menu-label-color: $grey-dark;
+$menu-label-font-size: 36px;
+$menu-label-letter-spacing: 0;
+$menu-list-link-padding: 8px 30px;
+
+$column-gap: 20px;
+$card-shadow: 0px 10px 32px rgba(37, 64, 99, 0.1);
+$link-hover: $red;
+$button-border-width: 2px;
+
+$dimensions: 16 24 32 46 64 80 96 100 128 150 !default;

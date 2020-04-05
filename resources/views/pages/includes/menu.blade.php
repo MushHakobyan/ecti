@@ -3,7 +3,7 @@
         <div class="columns is-marginless">
             <div class="column is-2 is-offset-2">
                 <h2>ECTI</h2>
-                <ul>
+                <ul class="content-medium">
                     <li><a href="">Welcome to ECTI <span class="has-text-danger">(about)</span></a></li>
                     <li><a href="">Calendar</a></li>
                     <li><a href="">Accreditations</a></li>
@@ -14,7 +14,7 @@
             </div>
             <div class="column is-2 is-offset-1">
                 <h2>Admissions</h2>
-                <ul>
+                <ul class="content-medium">
                     <li><a href="">How to apply</a></li>
                     <li><a href="">Admission policy</a></li>
                     <li><a href="">Tution and fees</a></li>
@@ -24,7 +24,7 @@
             </div>
             <div class="column is-2 is-offset-1">
                 <h2>Academics</h2>
-                <ul>
+                <ul class="content-medium">
                     <li><a href="">Training plan 2019</a></li>
                     <li><a href="">Training plan 2020</a></li>
                     <li><a href="">Scholarships</a></li>

@@ -9423,7 +9423,7 @@ var memberSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.members-
   }
 });
 var tutorSwiper = new swiper__WEBPACK_IMPORTED_MODULE_0__["default"]('.tutors-swiper', {
-  spaceBetween: 110,
+  spaceBetween: 70,
   breakpoints: {
     769: {
       slidesPerView: 2

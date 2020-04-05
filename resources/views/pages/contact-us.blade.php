@@ -3,7 +3,7 @@
     @section('content')
         <div class="container is-fullhd">
             <div class="contact-us is-flex columns is-marginless">
-                <div class="column is-paddingless body-1">
+                <div class="column is-paddingless content-normal">
                     <h1>Contact us</h1> 
                     <h3>Executive Coaching and Training Institute</h3>
                     <div>

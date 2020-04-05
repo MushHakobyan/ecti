@@ -8,13 +8,13 @@
                         <div class="field">
                             <div class="control has-icons-right">
                               <div class="select is-medium is-multiple">
-                                <select style="padding-right: 48px">
+                                <select class="has-text-grey" style="padding-right: 48px">
                                   <option>2020</option>
                                   <option>2021</option>
                                   <option>2022</option>
                                 </select>
                               </div>
-                              <figure class="icon icon is-medium is-right">
+                              <figure class="icon is-medium is-right">
                                 <img src="{{asset('svg/select-arrow.svg')}}">
                               </figure>
                             </div>
@@ -25,12 +25,12 @@
                         <div class="field">
                             <div class="control has-icons-right">
                               <div class="select is-multiple">
-                                <select>
+                                <select class="has-text-grey">
                                   <option>Title</option>
                                   <option>Date</option>
                                 </select>
                               </div>
-                              <figure class="icon icon is-medium is-right">
+                              <figure class="icon is-medium is-right">
                                 <img src="{{asset('svg/select-arrow-small.svg')}}">
                               </figure>
                             </div>
@@ -72,10 +72,10 @@
                                                 <a href="">
                                                     <h4>The Data Science Course 2020: Complete Data Science Bootcamp</h4>
                                                 </a>
-                                                <div class="body-2 ">
+                                                <div class="content-small has-text-black-ter">
                                                     <span class="is-tag">Data Scince</span>
-                                                    <span class="body-1">Mathematics, Statistics, Python</span>
-                                                    <span>10 July, 2020</span>
+                                                    <span class="content-normal">Mathematics, Statistics, Python</span>
+                                                    <span class="has-text-white-ter">10 July, 2020</span>
                                                 </div>
                                             </div>
                                             <div class="has-text-weight-semibold">
